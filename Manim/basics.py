@@ -21,14 +21,16 @@ class SquareToCircle(Scene):
 
 class AnimatedSquareToCircle(Scene):
     def construct(self):
-        circle = Circle()  # create a circle
-        square = Square()  # create a square
+        circle = Circle().shift(2 * DOWN)  # create a circle
+        square = Square()
+        text = Text("I am now a text").shift(UP).add_background_rectangle(color=BLUE, opacity=0.4)  # create a square
 
         self.play(Create(square))  # show the square on screen
         self.play(square.animate.rotate(PI / 4))  # rotate the square
         self.play(
-            ReplacementTransform(square, circle)
-        )  # transform the square into a circle
+            ReplacementTransform(square, text)
+        )  # transform the square into text
+        self.play(Create(circle))
         self.play(
             circle.animate.set_fill(PINK, opacity=0.5)
         )  # color the circle on screen
@@ -58,3 +60,8 @@ class ManimCELogo(Scene):
         logo = VGroup(triangle, square, circle, ds_m)  # order matters
         logo.move_to(ORIGIN)
         self.add(logo)
+
+## Display all MObjects available
+#class allMObjects(Scene):
+#    def construct(self):
+
