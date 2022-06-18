@@ -51,7 +51,7 @@ class indifferenceCurve(Scene):
         curves += ax.plot(lambda x: 10 / x, color=WHITE)
         curves += ax.plot(lambda x: 5 / x, color=WHITE)
 
-        label_1 = ax.get_graph_label(curves[0], MathTex(r"\frac{15}{x}", font_size=25), x_val=4, direction=DOWN)
+        label_1 = ax.get_graph_label(curves[0], MathTex(r"\frac{15}{x}", font_size=25), x_val=4, direction=UP)
         label_2 = ax.get_graph_label(curves[1], MathTex(r"\frac{10}{x}", font_size=25), x_val=3, direction=DOWN)
         label_3 = ax.get_graph_label(curves[2], MathTex(r"\frac{5}{x}", font_size=25), x_val=2.5, direction=DOWN)
         labels = VGroup(label_1, label_2, label_3)
