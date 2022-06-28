@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/3202540641_828348288_2358810818.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/2895039437_4095836348_4114183790.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/2895039437_4279275516_2329434646.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/2895039437_787211222_1956066158.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/2895039437_4010339983_4081983368.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/2278858858_3073104160_1119274471.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/2861421435_2413715355_897369472.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/4232526039_938281489_3017639283.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/3068842957_2413715355_1749812213.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/3770088620_1696524798_1638784825.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/mobjects3D/3770088620_787211222_3954614439.mp4'

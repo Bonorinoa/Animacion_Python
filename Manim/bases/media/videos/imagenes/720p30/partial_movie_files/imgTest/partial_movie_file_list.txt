@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/bases/media/videos/imagenes/720p30/partial_movie_files/imgTest/1342159004_1027161991_2358810818.mp4'

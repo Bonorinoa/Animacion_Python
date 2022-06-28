@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/480p15/partial_movie_files/mobjects3D/2200905680_2606856806_223132457.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/480p15/partial_movie_files/mobjects3D/2134438962_787211222_1760729639.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/480p15/partial_movie_files/mobjects3D/2134438962_2176377343_230770454.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/480p15/partial_movie_files/mobjects3D/3798192796_3073104160_1614497846.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/480p15/partial_movie_files/mobjects3D/129201454_1074266216_3439421070.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/480p15/partial_movie_files/mobjects3D/1589125482_855376541_3137452424.mp4'

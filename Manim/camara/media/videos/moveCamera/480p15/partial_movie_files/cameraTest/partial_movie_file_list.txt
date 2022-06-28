@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/moveCamera/480p15/partial_movie_files/cameraTest/2200905680_2524864971_223132457.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/moveCamera/480p15/partial_movie_files/cameraTest/3798192796_1607012603_2308812701.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/moveCamera/480p15/partial_movie_files/cameraTest/1589125482_855376541_3740120178.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/moveCamera/480p15/partial_movie_files/cameraTest/288167397_938281489_1940694671.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/moveCamera/480p15/partial_movie_files/cameraTest/1085180066_3189984486_1147745253.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/moveCamera/480p15/partial_movie_files/cameraTest/3505108368_787211222_3392908110.mp4'

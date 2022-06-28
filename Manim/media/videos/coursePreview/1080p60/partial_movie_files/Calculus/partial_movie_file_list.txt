@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/Calculus/4028008878_2948797156_2414596931.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/Calculus/1123112701_1790926212_4157290620.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/Calculus/3927395255_2243974563_1882486586.mp4'

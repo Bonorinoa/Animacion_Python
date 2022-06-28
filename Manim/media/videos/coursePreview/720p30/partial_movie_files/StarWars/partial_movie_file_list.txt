@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/3754583691_923093942_729892282.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_1831485492_729892282.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_958405281_1430162755.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_2461936304_4177346932.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_2677435527_1947717153.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_2192114601_1099642104.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_1305232424_3331813222.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/720p30/partial_movie_files/StarWars/2157487341_958405281_707779461.mp4'

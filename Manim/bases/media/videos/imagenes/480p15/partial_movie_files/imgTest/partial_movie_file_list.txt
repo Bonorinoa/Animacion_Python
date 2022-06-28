@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/bases/media/videos/imagenes/480p15/partial_movie_files/imgTest/3163782288_1027161991_2358810818.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/bases/media/videos/imagenes/480p15/partial_movie_files/imgTest/2201830969_744054190_2214694372.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/bases/media/videos/imagenes/480p15/partial_movie_files/imgTest/2201830969_4059863167_2772340579.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/bases/media/videos/imagenes/480p15/partial_movie_files/imgTest/2201830969_1590317891_3757830755.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/bases/media/videos/imagenes/480p15/partial_movie_files/imgTest/2201830969_1510725012_3757830755.mp4'

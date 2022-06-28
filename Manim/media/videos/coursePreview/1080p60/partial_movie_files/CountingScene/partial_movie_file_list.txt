@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/CountingScene/450974505_2924078650_3524073019.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/CountingScene/34786186_731217907_3753729347.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/CountingScene/34786186_641011677_1218397689.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/CountingScene/34786186_1275966368_131115669.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/coursePreview/1080p60/partial_movie_files/CountingScene/34786186_3375341780_1527714415.mp4'
