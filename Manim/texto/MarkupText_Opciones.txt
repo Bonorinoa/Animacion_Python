@@ -1,0 +1,33 @@
+PangoMarkup can also contain XML features such as numeric character entities such as &#169; for © can be used too.
+
+The most general markup tag is <span>, then there are some convenience tags.
+
+Here is a list of supported tags:
+
+<b>bold</b>, <i>italic</i> and <b><i>bold+italic</i></b>
+
+<ul>underline</ul> and <s>strike through</s>
+
+<tt>typewriter font</tt>
+
+<big>bigger font</big> and <small>smaller font</small>
+
+<sup>superscript</sup> and <sub>subscript</sub>
+
+<span underline="double" underline_color="green">double underline</span>
+
+<span underline="error">error underline</span>
+
+<span overline="single" overline_color="green">overline</span>
+
+<span strikethrough="true" strikethrough_color="red">strikethrough</span>
+
+<span font_family="sans">temporary change of font</span>
+
+<span foreground="red">temporary change of color</span>
+
+<span fgcolor="red">temporary change of color</span>
+
+<gradient from="YELLOW" to="RED">temporary gradient</gradient>
+
+For <span> markup, colors can be specified either as hex triples like #aabbcc or as named CSS colors like AliceBlue. The <gradient> tag is handled by Manim rather than Pango, and supports hex triplets or Manim constants like RED or RED_A. If you want to use Manim constants like RED_A together with <span>, you will need to use Python’s f-String syntax as follows:

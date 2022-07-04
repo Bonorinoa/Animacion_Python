@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/ejes_coordenadas/media/videos/ejes3D/720p30/partial_movie_files/ejemplo3D/3202540641_2272666249_223132457.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/ejes_coordenadas/media/videos/ejes3D/720p30/partial_movie_files/ejemplo3D/2895039437_3086064909_3531346367.mp4'
