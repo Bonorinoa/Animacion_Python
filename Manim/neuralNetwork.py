@@ -230,14 +230,14 @@ class NeuralNetworkMobject(VGroup):
 
 class myNeuralNetwork(Scene):
     def construct(self):
-        myNetwork = NeuralNetworkMobject([15, 5, 2])
+        myNetwork = NeuralNetworkMobject([15, 8, 6, 4, 2])
 
         myNetwork.label_inputs('x')
         myNetwork.label_outputs('\hat{y}')
         myNetwork.label_hidden_layers('a')
         myNetwork.label_outputs_text(['Clase 1', 'Clase 2'])
 
-        texto = MarkupText("Red Neuronal \n Clasificacion Multiple", font_size=30).to_corner(UL)
-        self.play(Write(texto), Write(myNetwork), run_time=7)
+        texto = MarkupText("Red Neuronal \n Clasificacion Múltiple", font_size=26).to_corner(UL)
+        self.play(Write(texto), Write(myNetwork.shift(RIGHT)), run_time=12)
         self.play(Circumscribe(texto))
-        self.wait(1)
+        self.wait(5)

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "autocreated",
+        "type": "default.normal",
+        "video": "baseScene_0000.mp4",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "60/1",
+        "duration": "8.000000",
+        "nb_frames": "480"
+    },
+    {
+        "name": "Nombre opcional para la seccion",
+        "type": "default.normal",
+        "video": "baseScene_0001.mp4",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "60/1",
+        "duration": "6.000000",
+        "nb_frames": "360"
+    }
+]

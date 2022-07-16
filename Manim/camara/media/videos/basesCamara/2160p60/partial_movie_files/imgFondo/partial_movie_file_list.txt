@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/basesCamara/2160p60/partial_movie_files/imgFondo/3215718966_2396266407_4031966028.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/basesCamara/2160p60/partial_movie_files/imgFondo/1370976784_3375341780_3518653589.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/basesCamara/2160p60/partial_movie_files/imgFondo/1370976784_3216765198_3235538312.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/basesCamara/2160p60/partial_movie_files/imgFondo/1370976784_3375341780_3383587816.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/basesCamara/2160p60/partial_movie_files/imgFondo/1370976784_3375341780_2419851160.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/basesCamara/2160p60/partial_movie_files/imgFondo/1370976784_4064399999_2131196270.mp4'

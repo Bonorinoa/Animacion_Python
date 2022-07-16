@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/openGLtest/720p30/partial_movie_files/NewtonIteration/3182407478_848726833_223132457.mp4'

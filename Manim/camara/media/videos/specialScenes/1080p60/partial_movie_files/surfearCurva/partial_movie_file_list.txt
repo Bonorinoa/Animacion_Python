@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/specialScenes/1080p60/partial_movie_files/surfearCurva/960020981_1316998542_1166137334.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/specialScenes/1080p60/partial_movie_files/surfearCurva/730685645_3220455719_150268766.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/specialScenes/1080p60/partial_movie_files/surfearCurva/884380080_4267908272_1121822341.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/specialScenes/1080p60/partial_movie_files/surfearCurva/3539176800_2243974563_964079780.mp4'

@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/scenes/1080p60/partial_movie_files/rocketCountdown/450974505_3315967912_1335661642.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/scenes/1080p60/partial_movie_files/rocketCountdown/34786186_2122635310_1418262244.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/scenes/1080p60/partial_movie_files/rocketCountdown/34786186_1314034687_1876539339.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/camara/media/videos/scenes/1080p60/partial_movie_files/rocketCountdown/34786186_2311842923_4066449883.mp4'

@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/animAvanzada/1080p60/partial_movie_files/CalculusSlopes/450974505_1015491761_3415758954.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/animAvanzada/1080p60/partial_movie_files/CalculusSlopes/34786186_3117772560_3232457516.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/animAvanzada/1080p60/partial_movie_files/CalculusSlopes/34786186_2378605181_2324493432.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/animAvanzada/1080p60/partial_movie_files/CalculusSlopes/34786186_329969645_803600292.mp4'
