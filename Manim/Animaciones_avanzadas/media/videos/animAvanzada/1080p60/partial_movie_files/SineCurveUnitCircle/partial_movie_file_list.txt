@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/animAvanzada/1080p60/partial_movie_files/SineCurveUnitCircle/450974505_1636166871_4077914622.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/Animaciones_avanzadas/media/videos/animAvanzada/1080p60/partial_movie_files/SineCurveUnitCircle/34786186_329969645_644162842.mp4'
