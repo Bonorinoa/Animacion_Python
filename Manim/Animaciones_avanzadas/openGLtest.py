@@ -29,6 +29,8 @@ class OpenGLIntro(Scene):
         
         self.interactive_embed()
 
+# Pyglet docs: https://pyglet.org/
+# Scipy docs: https://scipy.org/
 
 class NewtonIteration(Scene):
     def construct(self):
