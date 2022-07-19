@@ -1,7 +1,7 @@
 # Animacion Aplicada en Python con Manim
 
 
-https://user-images.githubusercontent.com/65452931/179850247-6d5a2770-0e17-4033-ba9a-801baca1c3b0.mov
+https://user-images.githubusercontent.com/65452931/179851175-07115132-9267-4526-ad8d-2bbef6306fb4.mov
 
 
 links al curso
