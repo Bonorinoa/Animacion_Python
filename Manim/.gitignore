@@ -1,8 +1,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-share/
-media/
+Scripts/
 
 # C extensions
 *.so
