@@ -1,7 +1,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-./Scripts/
+Manim/Scripts/
 
 # C extensions
 *.so
