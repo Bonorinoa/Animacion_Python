@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/scene/720p30/partial_movie_files/DifferentRotations/1342159004_1442624196_3358564202.mp4'
-file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/scene/720p30/partial_movie_files/DifferentRotations/1353618911_641011677_507921712.mp4'

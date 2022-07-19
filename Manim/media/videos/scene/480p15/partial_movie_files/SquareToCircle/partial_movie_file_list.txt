@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/media/videos/scene/480p15/partial_movie_files/SquareToCircle/3163782288_318596444_223132457.mp4'
