@@ -13,10 +13,8 @@ class PrimerScript(Scene):
         
         self.play(circuloAzul.animate.set_color(GREEN), Rotate(cuadrado))
         
-        self.wait()
-        
         self.play(FadeOut(circuloAzul))
+        
         self.play(ReplacementTransform(cuadrado, Triangle()))
         
         self.wait(2)
-        
