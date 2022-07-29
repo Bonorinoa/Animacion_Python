@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1342159004_941054137_2537142312.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1353618911_329969645_919609841.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1353618911_1976453418_1058358845.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1353618911_329969645_254856771.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1353618911_520592446_1418952129.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1353618911_1962545415_3256228541.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/mis_creaciones/media/videos/primerScript/720p30/partial_movie_files/PrimerScript/1353618911_125286499_3470412779.mp4'
