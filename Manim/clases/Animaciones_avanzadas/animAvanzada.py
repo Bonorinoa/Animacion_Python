@@ -89,9 +89,6 @@ class SineCurveUnitCircle(Scene):
         dot.remove_updater(go_around_circle)
 
 # segundo ejemplo
-
-
-# tercer ejemplo
 class CalculusArea(Scene):
     
     def get_rectangle_corners(self, bottom_left, top_right):
@@ -181,7 +178,7 @@ class CalculusArea(Scene):
         self.play(t.animate.set_value(k / 10))
         self.play(t.animate.set_value(5))
         
-# Cuarto ejemplo  
+# Tercer ejemplo  
 class CalculusSlopes(Scene):
     def construct(self):
 
