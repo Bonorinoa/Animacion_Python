@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/clases/ejemplos_aplicados/media/videos/neuralNetwork/1080p60/partial_movie_files/myNeuralNetwork/450974505_601560564_223132457.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/clases/ejemplos_aplicados/media/videos/neuralNetwork/1080p60/partial_movie_files/myNeuralNetwork/34786186_483538803_2692876807.mp4'
+file 'file:C:/Users/Bonoc/Documents/GitHub/Animation_Python/Manim/clases/ejemplos_aplicados/media/videos/neuralNetwork/1080p60/partial_movie_files/myNeuralNetwork/34786186_36632488_3744383552.mp4'

@@ -6,21 +6,31 @@ class OpenGLIntro(Scene):
     def construct(self):
         hello_world = Tex("Hello World!").scale(3)
         self.play(Write(hello_world))
+        self.play(Rotate(hello_world))
         self.play(
             self.camera.animate.set_euler_angles(
                 theta=-10*DEGREES,
                 phi=50*DEGREES
             )
         )
+        self.wait(5)
+        
         self.play(FadeOut(hello_world))
+        
+        cubo = Cube(fill_color=YELLOW)
+        self.play(Create(cubo))
+        self.wait(7)
+        
+        self.play(Uncreate(cubo))     
+        
         surface = OpenGLSurface(
             lambda u, v: (u, v, u*np.sin(v) + v*np.cos(u)),
             u_range=(-3, 3),
-            v_range=(-3, 3)
+            v_range=(-3, 3), color=BLUE
         )
-        surface_mesh = OpenGLSurfaceMesh(surface)
-        self.play(Create(surface_mesh))
-        self.play(FadeTransform(surface_mesh, surface))
+        #surface_mesh = OpenGLSurfaceMesh(surface)
+        self.play(Create(surface))
+        #self.play(FadeTransform(surface_mesh, surface))
         self.wait()
         light = self.camera.light_source
         self.play(light.animate.shift([0, 0, -20]))
