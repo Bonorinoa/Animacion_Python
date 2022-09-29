@@ -1,6 +1,6 @@
 from manim import *
 from manim.opengl import *
-
+import numpy as np
 
 class OpenGLIntro(Scene):
     def construct(self):
@@ -18,10 +18,32 @@ class OpenGLIntro(Scene):
         self.play(FadeOut(hello_world))
         
         cubo = Cube(fill_color=YELLOW)
-        self.play(Create(cubo))
+        self.play(FadeIn(cubo))
         self.wait(7)
         
-        self.play(Uncreate(cubo))     
+        self.play(Uncreate(cubo))  
+        
+        ax = ThreeDAxes()
+        esfera = Surface(
+                lambda u, v: np.array([
+                1.5 * np.cos(u) * np.cos(v),
+                1.5 * np.cos(u) * np.sin(v),
+                1.5 * np.sin(u)
+            ]), v_range=[0, TAU], u_range=[-PI / 2, PI / 2],
+            checkerboard_colors=[RED_D, RED_E], resolution=(15, 32)
+
+        )
+        
+        self.play(Create(ax), Create(esfera))
+        self.play(self.renderer.camera.light_source.animate.move_to(3*IN), run_time=2)
+        self.wait(3)
+
+        self.play(
+            self.camera.animate.set_euler_angles(
+                theta=-50*DEGREES,
+                phi=30*DEGREES
+            )
+        )
         
         surface = OpenGLSurface(
             lambda u, v: (u, v, u*np.sin(v) + v*np.cos(u)),
@@ -41,14 +63,84 @@ class OpenGLIntro(Scene):
 
 # Pyglet docs: https://pyglet.org/
 # Scipy docs: https://scipy.org/
+# Source: https://github.com/ManimCommunity/manim/blob/main/example_scenes/opengl.py
+
+class SurfaceExample(Scene):
+    
+    # agregar funcion que permita avanzar la animacion al cliquear N
+
+    def construct(self):
+
+        torus1 = Torus(major_radius=1, minor_radius=1)
+        torus2 = Torus(major_radius=3, minor_radius=1)
+        sphere = Sphere(radius=3, resolution=torus1.resolution)
+        # You can texture a surface with up to two images, which will
+        # be interpreted as the side towards the light, and away from
+        # the light.  These can be either urls, or paths to a local file
+        # in whatever you've set as the image directory in
+        # the custom_config.yml file
+
+        day_texture = "C:\\Users\\Bonoc\\Documents\\GitHub\\Animation_Python\\Manim\\Assets\\Images\\1280px-The_earth_at_night"
+        night_texture = "C:\\Users\\Bonoc\\Documents\\GitHub\\Animation_Python\\Manim\\Assets\\Images\\1280px-The_earth_at_night.jpg"
+
+        surfaces = [
+            OpenGLTexturedSurface(surface, day_texture, night_texture)
+            for surface in [sphere, torus1, torus2]
+        ]
+
+        for mob in surfaces:
+            mob.shift(IN)
+            mob.mesh = OpenGLSurfaceMesh(mob)
+            mob.mesh.set_stroke(BLUE, 1, opacity=0.5)
+
+        # Set perspective
+        frame = self.renderer.camera
+        frame.set_euler_angles(
+            theta=-30 * DEGREES,
+            phi=70 * DEGREES,
+        )
+
+        surface = surfaces[0]
+
+        self.play(
+            FadeIn(surface),
+            Create(surface.mesh, lag_ratio=0.01, run_time=3),
+        )
+        for mob in surfaces:
+            mob.add(mob.mesh)
+        surface.save_state()
+        self.play(Rotate(surface, PI / 2), run_time=2)
+        for mob in surfaces[1:]:
+            mob.rotate(PI / 2)
+
+        self.play(Transform(surface, surfaces[1]), run_time=3)
+
+        self.play(
+            Transform(surface, surfaces[2]),
+            # Move camera frame during the transition
+            frame.animate.increment_phi(-10 * DEGREES),
+            frame.animate.increment_theta(-20 * DEGREES),
+            run_time=3,
+        )
+        # Add ambient rotation
+        frame.add_updater(lambda m, dt: m.increment_theta(-0.1 * dt))
+
+        light = self.camera.light_source
+        self.add(light)
+        light.save_state()
+        self.play(light.animate.move_to(3 * IN), run_time=5)
+        self.play(light.animate.shift(10 * OUT), run_time=5)
+        
+        self.interactive_embed()
 
 class NewtonIteration(Scene):
     def construct(self):
-        self.axes = Axes()
-        self.f = lambda x: (x+6) * (x+3) * x * (x-3) * (x-6) / 300
-        curve = self.axes.plot(self.f, color=RED)
-        self.cursor_dot = Dot(color=YELLOW)
-        self.play(Create(self.axes), Create(curve), FadeIn(self.cursor_dot))
+        ax = Axes()
+        #f = lambda x: x**2 + 3*x**3
+        curve = ax.plot(lambda x: x**2 + 3*x**3, color=YELLOW)
+        cursor_dot = OpenGLDot(color=RED)
+        self.add(curve)
+        self.play(Create(ax), FadeIn(cursor_dot))
         self.interactive_embed()  # not supported in online environment
 
     def on_key_press(self, symbol, modifiers):
